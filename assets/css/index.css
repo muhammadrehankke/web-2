@@ -1,0 +1,323 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+	overflow-x:hidden;
+}
+
+html{
+	overflow-x:hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    color:white;
+    transition: all .4s;
+}
+
+ .nav-link:hover{
+    color:red;
+}
+
+
+.navbar{
+    padding:150px 0px 150px 0px;
+}
+.navbar-nav li{
+    padding:0px 30px;
+}
+
+.banner-section{
+    background-image: url(../image/Untitled-1.png);
+    background-repeat: no-repeat;
+       height:1100px;
+    background-position: center;
+}
+
+.banner-box{
+    display: flex;
+   justify-content: center;
+}
+
+.banner-text{
+    color:#ff0000;
+    text-align: center;
+}
+
+.banner-text h2{
+   padding:90px 0px 0px 50px;
+    font-size:20px;
+    letter-spacing: 30px;
+    position: relative;
+}
+
+
+
+.banner-text h1{
+    letter-spacing:20px;
+    padding:20px 0px 0px 30px;
+    font-size:70px;
+    font-family: 'Pacifico', cursive;
+}
+.banner-text h3{
+    letter-spacing:80px;
+  padding:7px 0px 0px 72px;
+}
+
+.box-banner{
+    margin-top:380px;
+    background-color:#46464671;
+    width:930px;
+   padding:40px 40px 50px 200px; 
+}
+
+.box-banner h2{
+    color:#ff0000;
+    padding:20px 0px;
+    font-weight: bold;
+}
+.box-banner p{
+    color:white;
+    font-size:28px;
+}
+.about-section{
+    padding:150px 0px 200px 0px;
+}
+.about-heading{
+    text-align: center;
+    color:red;
+    padding:0px 0 70px 0px;
+}
+.about-heading h2{
+    font-size:60px;
+}
+
+.about-content p{
+    font-size:22px;
+    color:white;
+}
+
+.night-section{
+    background-image: url(../image/lady.png);
+    height: 1750px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+}
+
+.night-text{
+    color:#dcdcdc;
+    position: absolute;
+    top:500px;
+    width:500px;
+    left:500px;
+}
+
+.night-text h2{
+    font-size:90px;
+}
+
+.night-text p{
+    font-size:22px;
+}
+
+.button{
+    border:3px solid white;
+    color:white;
+    margin-top:20px;
+    padding:10px 70px;
+    font-size:20px;
+    display: inline-block;
+    border-radius: 50px;
+    font-weight: bold;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color:black;
+}
+.box-text{
+    padding:60px 20px;
+    text-align: center;
+    color:#ff0000;
+    position: relative;
+    top:-180px;
+    transition: all .4s;
+    background-color: rgba(61, 60, 60, 0.562);
+
+}
+.box-text:hover{
+    background-color:rgba(99, 98, 98, 0.562);;
+}
+
+.box-text h3{
+    font-size:30px;
+    margin-bottom: 40px;
+}
+.box-text:nth-child(1){
+  border:2px solid rgb(19, 18, 18);
+}
+
+.box-text span{
+    display: block;
+    font-size:24px;
+}
+
+.two-box-sec{
+    padding:0px 0px 400px 0px;
+}
+.guest-section{
+padding:0px 0px 300px 0px;
+}
+.guest-heading{
+    padding:200px 0px 130px 0px;
+}
+
+.guest-heading h2{
+  font-size:80px;
+  color:white;
+  line-height: 60px;
+}
+
+.box-text_x{
+    padding:50px 100px 100px 100px;
+}
+
+.box-text_x p{
+  font-size:20px;
+}
+
+
+.guest-heading h3{
+    font-size:90px;
+    color:red;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .guest-text{
+    text-align: center;
+    color:#c71e1e;
+    font-size:55px;
+  }
+
+
+  .box-content{
+    background-color:rgba(70, 69, 69, 0.562);
+    padding:40px 80px;
+    margin-top:30px;
+  }
+
+
+  .box-content p{
+    font-size:19px;
+  }
+
+  .search-sec{
+    padding-top:200px;
+  }
+
+.search-para{
+    padding:0px 320px;
+    font-size:20px;
+    color:red;
+    margin-bottom: 40px;
+}
+
+.search input{
+   width:500px;
+   padding:12px 20px;
+   font-size:20px;
+   border-radius:50px;
+}
+
+.ft-img{
+    text-align: center;
+}
+
+.footer-section{
+    position: relative;
+}
+
+.box-text_x h2{
+    font-size:40px;
+}
+
+.active{
+    color:Red;
+}
+
+
+
+.footer{
+    background-color: #ffffffba;
+   padding:200px 0px;
+    position: absolute;
+    width:100%;
+  bottom:0px;
+  color:red;
+}
+
+.footer::after{
+    content:'';
+    position:absolute;
+    width:85%;
+    left:8%;
+    bottom: 40%;
+    height:3px;
+    background-color: red;
+}
+
+.menus li{
+   font-size:20px;
+}
+
+
+.links{
+    text-align:end;
+    position: relative;
+    top:40px;
+}
+
+.menus a{
+    color:Red;
+}
+
+
+
+.links i:hover{
+    color:white;
+    background-color: black;
+} 
+
+
+.links i{
+    font-size:25px;
+    background: white;
+    border-radius:50%;
+    padding:10px;
+    display: inline-block;
+    background-color: red;
+    color:white
+}
+
+.links li{
+    display: inline-block;
+ }
+ 

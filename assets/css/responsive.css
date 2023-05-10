@@ -1,0 +1,150 @@
+@media (max-width:1199px){
+    .night-text {
+        position: absolute;
+        left: 395px;
+      }
+      .night-text h2 {
+        font-size: 65px;
+      }
+      .night-text p {
+        font-size: 18px;
+      }
+      .guest-text{
+        font-size:45px;
+      }
+
+      .search-para {
+        padding: 0px 220px;
+      }
+}
+
+@media (max-width:991px){
+    .button {
+        padding: 10px 48px;
+}
+
+.night-text {
+    position: absolute;
+    left: 276px;
+  }
+  .night-text h2 {
+    font-size: 41px;
+  }
+
+  .guest-heading h2{
+    font-size:60px;
+  }
+
+  .guest-heading h3{
+    font-size:50px;
+  }
+
+  .guest-text{
+    font-size:35px;
+  }
+  .night-text p {
+    font-size: 16px;
+}
+
+.search-para {
+  padding: 0px 120px;
+}
+
+.box-banner {
+    width: 650px;
+    padding: 40px 40px 50px 27px;
+  }
+  .box-banner p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:767px){
+    .banner-text h1{
+        font-size:48px;
+    }
+    .banner-text h3{
+        letter-spacing: 30px;
+    }
+
+    .box-banner p{
+        font-size: 18px;
+    }
+    .box-banner {
+        margin-top: 280px;
+        background-color: #46464671;
+        width: 576px;
+        padding: 40px 132px 50px 23px;
+      }
+
+      .night-section {
+        height: 900px;
+      }
+      .night-text {
+        position: absolute;
+        left: 53px;
+        top:200px;
+        color:red;
+      }
+      .button{
+        background-color: red;
+        color:white;
+    }
+    .search-para {
+      padding: 0px 20px;
+    }
+
+    .footer::after {
+      bottom: 32%;
+    }
+}
+
+
+@media (max-width:575px){
+    .banner-text h1{
+        font-size:28px;
+        letter-spacing: 10px;
+    }
+
+    .banner-text h2 {
+        font-size: 16px;
+        padding-right: 20px;
+        letter-spacing: 10px;
+      }
+      .banner-text h3 {
+        font-size:16px;
+        padding-right: 45px;
+        letter-spacing: 10px;
+        padding-top:20px;
+      }
+
+      .box-banner {
+        width: 489px;
+      }
+
+      .about-content p {
+        font-size: 17px;
+        color: white;
+      }
+
+      .night-text {
+        width: 376px;
+        position: absolute;
+        left:10px;
+    }
+
+    .box-text_x {
+      padding: 50px 30px 100px 30px;
+    }
+.search-para {
+    padding: 0px 50px;
+}
+.search input {
+  width:250px;
+}
+
+
+.footer::after {
+  bottom: 34%;
+}
+}
